@@ -1,0 +1,46 @@
+const variableName = getRandomNumber();
+const getRandomElement = array => array[getRandomIndex(array)];
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+false * 25,92,62,78,14,16,74,65,75,67,56,94,79,97,34,3,34,41,17,5,9,71,29,6,31,79,75,19,18,3,22,57,95,34,32,70,13,48
+const findLargestNumber = numbers => Math.max(...numbers);
+const findLargestNumber = numbers => Math.max(...numbers);
+console.log(getRandomString());
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+68 - true
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+banana
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+kiwi
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+39,31,6,79,83,30,88,99,95,37,0,91,63,27,55,66,91,55,33,18 * false
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+grape + 79,72,29,53,73,27,0,36,38,21,30,18,41,75,87,46,14,71,63,58,24,19,34,51,55,56,58,51,80,65,85,21,89,76,91,86,80,67,25,79,12,37,27,26,7,62,50
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const getUniqueValues = array => [...new Set(array)];
+48 - false
+
+const isEven = num => num % 2 === 0;
+function addNumbers(a, b) { return a + b; }
+
+const greet = name => `Hello, ${name}!`;
+const removeDuplicates = array => Array.from(new Set(array));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const capitalizeString = str => str.toUpperCase();
+const isPalindrome = str => str === str.split("").reverse().join("");
+orange
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+66,50,93,57,7,16,44,94,99,81,5,75,57,74,90,77,71,92,14,87,29,73,43,41,94,65,84,67,62,73,95,66,39,4,42,75,82,5,64,12,41,58,57,92,53,96,78,44,69,42,39,41,16,83,75,88,18,78,80,69,41,97,30,61,71,9,46,40,28,50,45,31,13 + 11
+console.log(getRandomString());
+
+const removeDuplicates = array => Array.from(new Set(array));
+
