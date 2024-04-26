@@ -1,0 +1,81 @@
+// This is a comment
+// This is a comment
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+apple
+
+const isEven = num => num % 2 === 0;
+
+15 + false
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+74,26,20,82,50,15,90,32,78,39,5,9,83,80,34,19,47,49,19,28,10,13,28,68,97,40,57,34,57,75,21,3,54,22,74,3,22,39,38,54,89,31,22,91,67,22,36,74,43,81,32,91,54,95,5,65,93,39,97,80,72,38,97,32,81,8,94,46,4,94,90,39,20,11,46,74,21,48,73,18,50,91,57,21,32 / grape
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const findSmallestNumber = numbers => Math.min(...numbers);
+orange - 78,47,95,71,57,15,10,72,88,5,72,72,82,47,20,59,44,47,64,54,54,28,55,32,14,94,6,79,49,65,75,87,24,55,87,42,18,99,51,68,12,97,42,66,9,37,38,45,4,58,6,12,95,11,55,61,54,3,74,72,30,65,44,9,18,72,73,83,53,67,13,31,33,78,13,68,48,93,15,28,82
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const capitalizeString = str => str.toUpperCase();
+99 * 79
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+true - 96
+
+const isEven = num => num % 2 === 0;
+
+orange
+
+
+function addNumbers(a, b) { return a + b; }
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+orange * 50,67,28,66,51,60,71,26,11,84,91,77,25,50,37,28,49,77,58,48,73,6,84,29,77,18,33,4,90,9,35,17,18,64,50,97,17,14,11,19,19,36,97,37,30,38,4,18,31,83,28,79,50,16,53,7,22,85,78,51
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const multiply = (a, b) => a * b;
+const removeDuplicates = array => Array.from(new Set(array));
+48,10,13,88,68,81,18,35,18,42,21,17,93,98,9,96,47,51,8,50,78,54,75 * 74,39,44,35,35,9,59,77,72,67,84,78,11,26,45,42,49,42,12,2,68,83,45,98,96,86,4,47,55,39,75,22,28,91,20,35,71,97,2,1,85,30,49,37,23,50,80,74,51,31,51,93,60,43,23,97,90,55,61,1,23
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple
+
+const greet = name => `Hello, ${name}!`;
+false - true
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+true / false
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+false - 16,8,92,61,60,22,98,94,90,73,6,24,66,39,68,21,96,34,78,12,36,36,41,19,78,60,47,36,53,44,6,33,0,4,62,19,79,13,75,25,61,8,21,54,86,83,55,12
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+94 + false
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+9 / 75,36,22,3,37
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+orange
+
+const multiply = (a, b) => a * b;
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+class MyClass { constructor() { this.property = getRandomString(); } }
+grape
+
+const reverseString = str => str.split("").reverse().join("");
+
+banana
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+true + 50
+const findLargestNumber = numbers => Math.max(...numbers);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const isEven = num => num % 2 === 0;
